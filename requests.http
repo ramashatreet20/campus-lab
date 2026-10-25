@@ -1,0 +1,17 @@
+### Test GET - All Students
+GET http://127.0.0.1:8080/students
+
+### Test GET - Student by ID
+GET http://127.0.0.1:8080/students/5
+
+### Test GET - Course Students
+GET http://127.0.0.1:8080/courses/2/students
+
+### Test POST - Create Student
+POST http://127.0.0.1:8080/students
+
+### Test PUT - Update Student
+PUT http://127.0.0.1:8080/students/5
+
+### Test DELETE - Delete Student
+DELETE http://127.0.0.1:8080/students/5
