@@ -14,6 +14,11 @@ class StudentController extends Controller
         return 'Student ID: ' . $id;
     }
 
+    public function create()
+    {
+        return 'Create Student Form';
+    }
+
     public function store()
     {
         return 'Student Created Successfully';
